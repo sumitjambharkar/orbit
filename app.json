@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "marriageorbit-app",
-    "slug": "marriageorbit-app",
+    "name": "marriageorbit",
+    "slug": "marriageorbit",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,16 +18,25 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.first.marriageorbit",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.first.marriageorbitapp",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2cfbaf35-996f-4b87-a541-9e89e988c404"
+      }
     }
   }
 }
